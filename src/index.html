@@ -3,10 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <title>Bulk sms sender</title>
 </head>
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+  <div class="wrapper">
+    <h1>Bulk SMS Sender</h1>
+    <form id="upload-csv" enctype="multipart/form-data">
+      <input type="file" accept=".csv">
+      <p>Drag your CSV file here or click in this area.</p>
+      <button id="send-sms" type="submit" disabled>Send SMS</button>
+    </form>
+  </div>
 </body>
 </html>
